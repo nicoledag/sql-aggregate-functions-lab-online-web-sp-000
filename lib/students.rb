@@ -2,6 +2,7 @@
 
 require 'pry'
 def highest_student_gpa
+  binding.pry
   "SELECT MAX(gpa) FROM students;"
 end
 
